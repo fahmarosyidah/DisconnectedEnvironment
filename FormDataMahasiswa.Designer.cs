@@ -81,6 +81,7 @@ namespace Disconnected_Environment
             // 
             this.bnMahasiswa.AddNewItem = this.bindingNavigatorDeleteItem;
             this.bnMahasiswa.CountItem = this.bindingNavigatorCountItem;
+            this.bnMahasiswa.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource, "nim", true));
             this.bnMahasiswa.DeleteItem = this.bindingNavigatorDeleteItem;
             this.bnMahasiswa.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.bnMahasiswa.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {

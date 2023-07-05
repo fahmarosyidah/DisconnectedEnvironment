@@ -116,7 +116,7 @@ namespace Disconnected_Environment
             Prodicbx();
             btnSave.Enabled = true;
             btnClear.Enabled = true;
-            btnAdd.Enabled = true;
+            btnAdd.Enabled = false;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
