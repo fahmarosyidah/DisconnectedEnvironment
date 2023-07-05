@@ -30,71 +30,73 @@ namespace Disconnected_Environment
         private void InitializeComponent()
         {
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.dataProdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataMahasiswaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataStatusMahasiswaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dataMasterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataProdiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataMahasiswaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataStatusMahasiswaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.toolStripLabel2,
-            this.toolStripDropDownButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStripLabel1});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripDropDownButton1
-            // 
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dataProdToolStripMenuItem,
-            this.dataMahasiswaToolStripMenuItem,
-            this.dataStatusMahasiswaToolStripMenuItem});
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(14, 22);
-            this.toolStripDropDownButton1.Text = "Data Master";
-            // 
-            // dataProdToolStripMenuItem
-            // 
-            this.dataProdToolStripMenuItem.Name = "dataProdToolStripMenuItem";
-            this.dataProdToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.dataProdToolStripMenuItem.Text = "Data Prodi";
-            this.dataProdToolStripMenuItem.Click += new System.EventHandler(this.dataProdToolStripMenuItem_Click);
-            // 
-            // dataMahasiswaToolStripMenuItem
-            // 
-            this.dataMahasiswaToolStripMenuItem.Name = "dataMahasiswaToolStripMenuItem";
-            this.dataMahasiswaToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.dataMahasiswaToolStripMenuItem.Text = "Data Mahasiswa";
-            this.dataMahasiswaToolStripMenuItem.Click += new System.EventHandler(this.dataMahasiswaToolStripMenuItem_Click);
-            // 
-            // dataStatusMahasiswaToolStripMenuItem
-            // 
-            this.dataStatusMahasiswaToolStripMenuItem.Name = "dataStatusMahasiswaToolStripMenuItem";
-            this.dataStatusMahasiswaToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.dataStatusMahasiswaToolStripMenuItem.Text = "Data Status Mahasiswa";
-            this.dataStatusMahasiswaToolStripMenuItem.Click += new System.EventHandler(this.dataStatusMahasiswaToolStripMenuItem_Click);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
             this.toolStripLabel1.Size = new System.Drawing.Size(0, 22);
             // 
-            // toolStripLabel2
+            // menuStrip1
             // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(90, 22);
-            this.toolStripLabel2.Text = "Data Master";
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dataMasterToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dataMasterToolStripMenuItem
+            // 
+            this.dataMasterToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dataProdiToolStripMenuItem,
+            this.dataMahasiswaToolStripMenuItem1,
+            this.dataStatusMahasiswaToolStripMenuItem1});
+            this.dataMasterToolStripMenuItem.Name = "dataMasterToolStripMenuItem";
+            this.dataMasterToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.dataMasterToolStripMenuItem.Text = "Data Master";
+            // 
+            // dataProdiToolStripMenuItem
+            // 
+            this.dataProdiToolStripMenuItem.Name = "dataProdiToolStripMenuItem";
+            this.dataProdiToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
+            this.dataProdiToolStripMenuItem.Text = "Data Prodi";
+            this.dataProdiToolStripMenuItem.Click += new System.EventHandler(this.dataProdiToolStripMenuItem_Click);
+            // 
+            // dataMahasiswaToolStripMenuItem1
+            // 
+            this.dataMahasiswaToolStripMenuItem1.Name = "dataMahasiswaToolStripMenuItem1";
+            this.dataMahasiswaToolStripMenuItem1.Size = new System.Drawing.Size(244, 26);
+            this.dataMahasiswaToolStripMenuItem1.Text = "Data Mahasiswa";
+            this.dataMahasiswaToolStripMenuItem1.Click += new System.EventHandler(this.dataMahasiswaToolStripMenuItem1_Click);
+            // 
+            // dataStatusMahasiswaToolStripMenuItem1
+            // 
+            this.dataStatusMahasiswaToolStripMenuItem1.Name = "dataStatusMahasiswaToolStripMenuItem1";
+            this.dataStatusMahasiswaToolStripMenuItem1.Size = new System.Drawing.Size(244, 26);
+            this.dataStatusMahasiswaToolStripMenuItem1.Text = "Data Status Mahasiswa";
+            this.dataStatusMahasiswaToolStripMenuItem1.Click += new System.EventHandler(this.dataStatusMahasiswaToolStripMenuItem1_Click);
             // 
             // DataMaster
             // 
@@ -102,10 +104,14 @@ namespace Disconnected_Environment
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "DataMaster";
             this.Text = "Data Master";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,12 +120,12 @@ namespace Disconnected_Environment
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem dataProdToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataMahasiswaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataStatusMahasiswaToolStripMenuItem;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dataMasterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataProdiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataMahasiswaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dataStatusMahasiswaToolStripMenuItem1;
     }
 }
 

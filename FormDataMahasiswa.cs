@@ -22,7 +22,7 @@ namespace Disconnected_Environment
         private void FormDataMahasiswa_Load()
         {
             // TODO: This line of code loads data into the 'kampusDataSet1.Mahasiswa' table. You can move, or remove it, as needed.
-            this.mahasiswaTableAdapter.Fill(this.kampusDataSet1.Mahasiswa);
+            //this.mahasiswaTableAdapter.Fill(this.kampusDataSet1.Mahasiswa);
             koneksi.Open();
             SqlDataAdapter dataAdapter1 = new SqlDataAdapter(new SqlCommand("Select m.nim, m.nama_mahasiswa, "
                 + "m.alamat, m.jenis_kelamin, m.tgl_lahir, p.nama_prodi From dbo.Mahasiswa m " +
