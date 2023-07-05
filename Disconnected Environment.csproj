@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6759F3A0-7A9A-43B7-A4AF-5F2C5451F642}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Disconnected_Environment</RootNamespace>
+    <AssemblyName>Disconnected Environment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormDataStatusMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataStatusMahasiswa.Designer.cs">
+      <DependentUpon>FormDataStatusMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMahasiswa.Designer.cs">
+      <DependentUpon>FormDataMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataProdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataProdi.Designer.cs">
+      <DependentUpon>FormDataProdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataMaster.Designer.cs">
+      <DependentUpon>FormDataMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KampusDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KampusDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KampusDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KampusDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KampusDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KampusDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormDataMahasiswa.resx">
+      <DependentUpon>FormDataMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataMaster.resx">
+      <DependentUpon>FormDataMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataProdi.resx">
+      <DependentUpon>FormDataProdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataStatusMahasiswa.resx">
+      <DependentUpon>FormDataStatusMahasiswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="KampusDataSet.xsc">
+      <DependentUpon>KampusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KampusDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KampusDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KampusDataSet.xss">
+      <DependentUpon>KampusDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KampusDataSet1.xsc">
+      <DependentUpon>KampusDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KampusDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KampusDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KampusDataSet1.xss">
+      <DependentUpon>KampusDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="KampusDataSet2.xsc">
+      <DependentUpon>KampusDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="KampusDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KampusDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KampusDataSet2.xss">
+      <DependentUpon>KampusDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
