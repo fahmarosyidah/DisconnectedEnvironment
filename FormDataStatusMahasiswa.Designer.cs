@@ -65,7 +65,7 @@ namespace Disconnected_Environment
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(123, 48);
+            this.dataGridView1.Location = new System.Drawing.Point(151, 50);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -75,7 +75,7 @@ namespace Disconnected_Environment
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 259);
+            this.label1.Location = new System.Drawing.Point(175, 261);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 17);
             this.label1.TabIndex = 1;
@@ -84,7 +84,7 @@ namespace Disconnected_Environment
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(147, 297);
+            this.label2.Location = new System.Drawing.Point(175, 299);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(161, 17);
             this.label2.TabIndex = 2;
@@ -93,7 +93,7 @@ namespace Disconnected_Environment
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(147, 335);
+            this.label3.Location = new System.Drawing.Point(175, 337);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 17);
             this.label3.TabIndex = 3;
@@ -102,7 +102,7 @@ namespace Disconnected_Environment
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(147, 372);
+            this.label4.Location = new System.Drawing.Point(175, 374);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 17);
             this.label4.TabIndex = 4;
@@ -112,7 +112,7 @@ namespace Disconnected_Environment
             // 
             this.cbxNama.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.mahasiswaBindingSource1, "nama_mahasiswa", true));
             this.cbxNama.FormattingEnabled = true;
-            this.cbxNama.Location = new System.Drawing.Point(314, 256);
+            this.cbxNama.Location = new System.Drawing.Point(342, 258);
             this.cbxNama.Name = "cbxNama";
             this.cbxNama.Size = new System.Drawing.Size(156, 24);
             this.cbxNama.TabIndex = 5;
@@ -122,7 +122,7 @@ namespace Disconnected_Environment
             // 
             this.cbxStatusMahasiswa.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.statusmahasiswaBindingSource1, "status_mahasiswa", true));
             this.cbxStatusMahasiswa.FormattingEnabled = true;
-            this.cbxStatusMahasiswa.Location = new System.Drawing.Point(314, 332);
+            this.cbxStatusMahasiswa.Location = new System.Drawing.Point(342, 334);
             this.cbxStatusMahasiswa.Name = "cbxStatusMahasiswa";
             this.cbxStatusMahasiswa.Size = new System.Drawing.Size(156, 24);
             this.cbxStatusMahasiswa.TabIndex = 6;
@@ -131,7 +131,7 @@ namespace Disconnected_Environment
             // 
             this.cbxTahunMasuk.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.statusmahasiswaBindingSource2, "tahun_masuk", true));
             this.cbxTahunMasuk.FormattingEnabled = true;
-            this.cbxTahunMasuk.Location = new System.Drawing.Point(314, 369);
+            this.cbxTahunMasuk.Location = new System.Drawing.Point(342, 371);
             this.cbxTahunMasuk.Name = "cbxTahunMasuk";
             this.cbxTahunMasuk.Size = new System.Drawing.Size(156, 24);
             this.cbxTahunMasuk.TabIndex = 7;
@@ -139,14 +139,14 @@ namespace Disconnected_Environment
             // txtNIM
             // 
             this.txtNIM.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.statusmahasiswaBindingSource, "nim", true));
-            this.txtNIM.Location = new System.Drawing.Point(314, 294);
+            this.txtNIM.Location = new System.Drawing.Point(342, 296);
             this.txtNIM.Name = "txtNIM";
             this.txtNIM.Size = new System.Drawing.Size(156, 22);
             this.txtNIM.TabIndex = 8;
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(611, 48);
+            this.btnOpen.Location = new System.Drawing.Point(639, 50);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(75, 38);
             this.btnOpen.TabIndex = 9;
@@ -156,7 +156,7 @@ namespace Disconnected_Environment
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(491, 256);
+            this.btnAdd.Location = new System.Drawing.Point(519, 258);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 38);
             this.btnAdd.TabIndex = 10;
@@ -166,7 +166,7 @@ namespace Disconnected_Environment
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(491, 355);
+            this.btnSave.Location = new System.Drawing.Point(519, 357);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 38);
             this.btnSave.TabIndex = 11;
@@ -176,7 +176,7 @@ namespace Disconnected_Environment
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(491, 308);
+            this.btnClear.Location = new System.Drawing.Point(519, 310);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 38);
             this.btnClear.TabIndex = 12;
